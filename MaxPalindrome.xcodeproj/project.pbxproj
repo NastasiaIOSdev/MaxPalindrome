@@ -23,7 +23,7 @@
 		2E09C869266BA8A400B3C77C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E09C86C266BA95300B3C77C /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		2E09C875266BB41A00B3C77C /* gifToImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gifToImage.swift; sourceTree = "<group>"; };
-		2E5E7E7B2666B7AD00AA143B /* Pali-N-Drom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pali-N-Drom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E5E7E7B2666B7AD00AA143B /* MaxPalindrome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaxPalindrome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E5E7E7E2666B7AD00AA143B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E5E7E802666B7AD00AA143B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2E5E7E822666B7AD00AA143B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 		2E5E7E722666B7AD00AA143B = {
 			isa = PBXGroup;
 			children = (
-				2E5E7E7D2666B7AD00AA143B /* Pali-N-Drom */,
+				2E5E7E7D2666B7AD00AA143B /* MaxPalindrome */,
 				2E5E7E7C2666B7AD00AA143B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,12 +84,12 @@
 		2E5E7E7C2666B7AD00AA143B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2E5E7E7B2666B7AD00AA143B /* Pali-N-Drom.app */,
+				2E5E7E7B2666B7AD00AA143B /* MaxPalindrome.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2E5E7E7D2666B7AD00AA143B /* Pali-N-Drom */ = {
+		2E5E7E7D2666B7AD00AA143B /* MaxPalindrome */ = {
 			isa = PBXGroup;
 			children = (
 				2E5E7E8C2666B7B100AA143B /* Info.plist */,
@@ -97,15 +97,15 @@
 				2E09C870266BA97B00B3C77C /* Controller */,
 				2E09C871266BA99B00B3C77C /* View */,
 			);
-			path = "Pali-N-Drom";
+			path = MaxPalindrome;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2E5E7E7A2666B7AD00AA143B /* Pali-N-Drom */ = {
+		2E5E7E7A2666B7AD00AA143B /* MaxPalindrome */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E5E7E8F2666B7B100AA143B /* Build configuration list for PBXNativeTarget "Pali-N-Drom" */;
+			buildConfigurationList = 2E5E7E8F2666B7B100AA143B /* Build configuration list for PBXNativeTarget "MaxPalindrome" */;
 			buildPhases = (
 				2E5E7E772666B7AD00AA143B /* Sources */,
 				2E5E7E782666B7AD00AA143B /* Frameworks */,
@@ -115,9 +115,9 @@
 			);
 			dependencies = (
 			);
-			name = "Pali-N-Drom";
+			name = MaxPalindrome;
 			productName = "Pali-N-Drom";
-			productReference = 2E5E7E7B2666B7AD00AA143B /* Pali-N-Drom.app */;
+			productReference = 2E5E7E7B2666B7AD00AA143B /* MaxPalindrome.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -134,7 +134,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2E5E7E762666B7AD00AA143B /* Build configuration list for PBXProject "Pali-N-Drom" */;
+			buildConfigurationList = 2E5E7E762666B7AD00AA143B /* Build configuration list for PBXProject "MaxPalindrome" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -147,7 +147,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2E5E7E7A2666B7AD00AA143B /* Pali-N-Drom */,
+				2E5E7E7A2666B7AD00AA143B /* MaxPalindrome */,
 			);
 		};
 /* End PBXProject section */
@@ -324,7 +324,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3VJYN6Z9BM;
-				INFOPLIST_FILE = "Pali-N-Drom/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MaxPalindrome/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -343,7 +343,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3VJYN6Z9BM;
-				INFOPLIST_FILE = "Pali-N-Drom/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MaxPalindrome/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,7 +358,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2E5E7E762666B7AD00AA143B /* Build configuration list for PBXProject "Pali-N-Drom" */ = {
+		2E5E7E762666B7AD00AA143B /* Build configuration list for PBXProject "MaxPalindrome" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E5E7E8D2666B7B100AA143B /* Debug */,
@@ -367,7 +367,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2E5E7E8F2666B7B100AA143B /* Build configuration list for PBXNativeTarget "Pali-N-Drom" */ = {
+		2E5E7E8F2666B7B100AA143B /* Build configuration list for PBXNativeTarget "MaxPalindrome" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E5E7E902666B7B100AA143B /* Debug */,
